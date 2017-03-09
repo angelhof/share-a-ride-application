@@ -1,0 +1,66 @@
+<form id="createtripform" class="input-group">
+
+<div class="input-row">
+	  <label>Start City:</label>
+	  
+	  <input type="text" name="origin" placeholder="From:">
+</div>
+
+<div class="input-row">
+  <label>Start point</label>
+<div class="i-1"style="float:left"  name="originCoords" id="origincoords">
+	<img src="../img/pin_map_icon.png" class="customicon">
+</div>
+</div>
+
+<div class="input-row">
+	  <label>End City:</label>
+	  
+	  <input type="text" name="destination" placeholder="To:">
+</div>
+
+<div class="input-row">
+  <label>End point</label>
+<div class="i-1"style="float:left"  name="destinationCoords" id="destinationcoords">
+	<img src="../img/pin_map_icon.png" class="customicon">
+</div>
+</div>
+
+
+  <div class="input-row">
+  <label>Regular Trip</label>
+  
+  <div id="regulartoggle" class="toggle" name="regulartrip" value="regularTrip">
+      <div class="toggle-handle"></div>
+    </div>
+  </div>
+    <input type="text" readonly name="label" style="display:none" id="labelofweekdays" value="Days of the week:">
+	<div class="input-row" id="daysofweek" style="display:none">
+		<button type="button" class="btn daybutton" name="daysofweek" value="0">Mon</button>
+		<button type="button" class="btn daybutton" name="daysofweek" value="1">Tue</button>
+		<button type="button" class="btn daybutton" name="daysofweek" value="2">Wed</button>
+		<button type="button" class="btn daybutton" name="daysofweek" value="3">Thur</button>
+		<button type="button" class="btn daybutton" name="daysofweek" value="4">Fri</button>
+		<button type="button" class="btn daybutton" name="daysofweek" value="5">Sat</button>
+		<button type="button" class="btn daybutton" name="daysofweek" value="6">Sun</button>
+	</div>	
+
+	<div class="input-row" id="date">
+	  <label>Date:</label>
+	  
+	  <input type="date"name="date">
+	</div>
+
+	<div class="input-row">
+	  <label>Time:</label>
+	  
+	  <input type="time" name="time">
+	</div>
+		
+	<div class="input-row">
+	<label>Seats:</label>
+	<input type="number" min="1" max="10"name="seats">	
+	</div>
+  <textarea rows="7" class="textareafix" name="description" placeholder="Description..."></textarea>
+  <input type="button" id="submit" class="i-12 custombtn" value="Create">
+</form>

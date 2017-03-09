@@ -1,0 +1,18 @@
+
+Real Todo plans:
+	Profile View: To see all reviews button
+	Settings View: Upload Picture, About, Help , Report
+	Reviews: Make reviews
+
+
+
+
+
+MARTIN
+	-TODO Upload Picture
+
+
+
+Good impls
+	if the user didnt enter a date on search search for the ones later than today
+

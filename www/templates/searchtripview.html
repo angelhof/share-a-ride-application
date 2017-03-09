@@ -1,0 +1,37 @@
+<div class="i-12"></br></div>
+
+<div class="i-12">
+	<div class="txtlogo">Share A Ride</div>
+	<img src="../img/car.png" id="logo" class="logoimage">
+</div>
+
+<div class="i-12"></br></div>
+
+<form id="searchtripform">
+	
+	<input type="text" name="origin" placeholder="From:" class="inputstyle">
+	
+	<input type="text" name="destination" placeholder="To:" class="inputstyle">
+
+	<div id="regulartoggle" class="toggle i-3" name="regulartrip" value="regularTrip">
+      <div class="toggle-handle"></div>
+    </div>
+</br>
+    <div class="i-9">Regular Trip</div>
+</br>
+    <div class="searchregular">
+	<button type="button" class="btn daybutton" name="daysofweek" value="0" style="display:none">Mon</button>
+	<button type="button" class="btn daybutton" name="daysofweek" value="1" style="display:none">Tue</button>
+	<button type="button" class="btn daybutton" name="daysofweek" value="2" style="display:none">Wed</button>
+	<button type="button" class="btn daybutton" name="daysofweek" value="3" style="display:none">Thur</button>
+	<button type="button" class="btn daybutton" name="daysofweek" value="4" style="display:none">Fri</button>
+	<button type="button" class="btn daybutton" name="daysofweek" value="5" style="display:none">Sat</button>
+	<button type="button" class="btn daybutton" name="daysofweek" value="6" style="display:none">Sun</button>
+	</div>	
+	
+  	<input id ="date" type="date" class="i-7 dateinput" name="date" placeholder="Date">
+  	<input id ="Seats" type="number" min="1" max="10" class="i-5 inputstyle" name="seats" placeholder="Seats">
+
+  	<input type="button" class="i-12 custombtn" id="search" value="Search">
+	<input type="button" class="i-12 btncreate" id="create" value="Create">
+</form>
